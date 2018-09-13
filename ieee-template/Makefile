@@ -1,5 +1,5 @@
 CMD = pdflatex
-DOC = rv-paper
+DOC = sis-paper
 all: 
 	$(CMD) $(DOC) && bibtex $(DOC) && $(CMD) $(DOC) && $(CMD) $(DOC) 
 
